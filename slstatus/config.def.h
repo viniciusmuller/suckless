@@ -69,6 +69,6 @@ static const struct arg args[] = {
 	{ pacman_updates, "%s updates | ",    NULL    },
 	{ cpu_perc,       "cpu: %s%% | ",     NULL    },
 	{ ram_used,       "ram: %s | ",       NULL    },
-	{ disk_free,      "free: %s | ",            "/"     },
-	{ datetime,       "%s",               "%c"    },
+	{ disk_free,      "free: %s | ",      "/"     },
+	{ datetime,       "%s ",               "%a, %B %d %I:%M%p"    },
 };
