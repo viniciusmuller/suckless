@@ -71,9 +71,10 @@ static Key keys[] = {
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ NULL,                         XK_Print,  spawn,          {.v = screenshotcmd } },
-	{ MODKEY,                       XK_minus,  spawn,          SHCMD("picom-trans -c -5")},
-	{ MODKEY,                       XK_equal,  spawn,          SHCMD("picom-trans -c +5")},
-	{ MODKEY,                       XK_g,      spawn,          SHCMD("toggle_layout")},
+	{ MODKEY,                       XK_minus,  spawn,          SHCMD("picom-trans -c -5") },
+	{ MODKEY,                       XK_equal,  spawn,          SHCMD("picom-trans -c +5") },
+	{ MODKEY,                       XK_s,      spawn,          SHCMD("~/bin/switch") }, // TODO: pass dmenu options to this script
+	{ MODKEY,                       XK_g,      spawn,          SHCMD("~/bin/toggle_layout") },
 	{ MODKEY|ShiftMask,             XK_g,      spawn,          {.v = lockcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
