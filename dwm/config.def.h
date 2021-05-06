@@ -68,7 +68,7 @@ static const char *lockcmd[]  = { "slock", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
-	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
+	{ MODKEY,                       XK_e,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ NULL,                         XK_Print,  spawn,          {.v = screenshotcmd } },
 	{ MODKEY,                       XK_minus,  spawn,          SHCMD("picom-trans -c -5") },
