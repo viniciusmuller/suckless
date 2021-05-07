@@ -13,6 +13,8 @@ This repository contains my custom builds of some suckless tools that I use
 - Custom keymaps
   - `printscreen`: flameshot gui
   - `prefix + e`: launch dmenu
+  - `prefix + a`: launch terminal
+  - `prefix + x`: kill current window
   - `prefix + u`: centeredmaster layout
   - `prefix + o`: floating centeredmaster layout
   - `prefix + g`: toggle layout script
