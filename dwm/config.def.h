@@ -70,7 +70,7 @@ static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_e,      spawn,          {.v = dmenucmd } },
 	{ MODKEY,                       XK_a,      spawn,          {.v = termcmd } },
-	{ NULL,                         XK_Print,  spawn,          {.v = screenshotcmd } },
+	{ 0,                         XK_Print,  spawn,          {.v = screenshotcmd } },
 	{ MODKEY,                       XK_minus,  spawn,          SHCMD("picom-trans -c -5") },
 	{ MODKEY,                       XK_equal,  spawn,          SHCMD("picom-trans -c +5") },
 	{ MODKEY,                       XK_s,      spawn,          SHCMD("~/bin/switch") }, // TODO: pass dmenu options to this script
