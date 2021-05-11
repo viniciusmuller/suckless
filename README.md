@@ -22,8 +22,6 @@ This repository contains my custom builds of some suckless tools that I use
   - `prefix + =`: increase window opacity
   - `prefix + shift + g`: lock screen
   - `prefix + shift + r`: restart dwm
-  - `prefix + s`: run dmenu switch script
-  - `prefix + w`: jump to previous focused window (requires `wmctrl`)
 
 ## st
 

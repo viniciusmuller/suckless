@@ -75,7 +75,6 @@ static Key keys[] = {
 	{ MODKEY,                       XK_minus,  spawn,          SHCMD("picom-trans -c -5") },
 	{ MODKEY,                       XK_equal,  spawn,          SHCMD("picom-trans -c +5") },
 	{ MODKEY,                       XK_s,      spawn,          { .v = switchcmd } },
-	{ MODKEY,                       XK_w,      focus_last,     {0} },
 	{ MODKEY,                       XK_g,      spawn,          SHCMD("~/bin/toggle_layout") },
 	{ MODKEY|ShiftMask,             XK_g,      spawn,          {.v = lockcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
