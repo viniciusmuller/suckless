@@ -62,6 +62,7 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-hp", HIGH_PRIORITY, "-fn", dmenufont, "-nb", col_black, "-nf", col_white, "-sb", col_white, "-sf", col_black, NULL };
+static const char *switchcmd[] = { "switch", "-m", dmenumon, "-fn", dmenufont, "-nb", col_black, "-nf", col_white, "-sb", col_white, "-sf", col_black, NULL };
 static const char *termcmd[]  = { "kitty", NULL };
 static const char *screenshotcmd[]  = { "flameshot", "gui", NULL };
 static const char *lockcmd[]  = { "slock", NULL };
@@ -73,7 +74,7 @@ static Key keys[] = {
 	{ 0,                            XK_Print,  spawn,          {.v = screenshotcmd } },
 	{ MODKEY,                       XK_minus,  spawn,          SHCMD("picom-trans -c -5") },
 	{ MODKEY,                       XK_equal,  spawn,          SHCMD("picom-trans -c +5") },
-	{ MODKEY,                       XK_s,      spawn,          SHCMD("~/bin/switch") }, // TODO: pass dmenu options to this script
+	{ MODKEY,                       XK_s,      spawn,          { .v = switchcmd } },
 	{ MODKEY,                       XK_w,      focus_last,     {0} },
 	{ MODKEY,                       XK_g,      spawn,          SHCMD("~/bin/toggle_layout") },
 	{ MODKEY|ShiftMask,             XK_g,      spawn,          {.v = lockcmd } },
