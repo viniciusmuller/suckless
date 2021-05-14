@@ -40,5 +40,9 @@ This repository contains my custom builds of some suckless tools that I use
 ## dmenu
 
 - Patches
+
   - highpriority
   - numbers
+
+- Scripts
+  - dmenu_run_i
