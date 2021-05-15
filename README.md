@@ -5,6 +5,7 @@ This repository contains my custom builds of some suckless tools that I use
 - Patches
 
   - focusonnetactive
+  - autostart
   - centeredmaster
   - restartsig
   - fancybar
