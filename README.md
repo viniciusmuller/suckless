@@ -1,5 +1,11 @@
 This repository contains my custom builds of some suckless tools that I use
 
+## Instalation
+```sh
+sudo sh install_all.sh
+```
+> This will run `sudo make install clean` in each build directory.
+
 ## dwm
 
 - Patches
