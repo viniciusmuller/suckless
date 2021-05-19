@@ -1,6 +1,6 @@
 This repository contains my custom builds of some suckless tools that I use
 
-## Instalation
+## Installation
 ```sh
 sudo sh install_all.sh
 ```
