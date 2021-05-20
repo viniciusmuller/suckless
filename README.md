@@ -15,6 +15,7 @@ sudo sh install_all.sh
   - centeredmaster
   - restartsig
   - fancybar
+  - systray
   - gaps
 
 - Custom keymaps
