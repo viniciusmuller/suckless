@@ -1,4 +1,4 @@
-#define HIGH_PRIORITY "firefox,discord"
+#define HIGH_PRIORITY "chromium,firefox,discord"
 
 /* appearance */
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
