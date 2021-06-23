@@ -19,7 +19,6 @@ COM =\
 	components/load_avg\
 	components/netspeeds\
 	components/num_files\
-	components/pacman_updates\
 	components/ram\
 	components/run_command\
 	components/separator\

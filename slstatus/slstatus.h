@@ -5,9 +5,6 @@ const char *battery_perc(const char *);
 const char *battery_state(const char *);
 const char *battery_remaining(const char *);
 
-/* pacman */
-const char *pacman_updates(void);
-
 /* cpu */
 const char *cpu_freq(void);
 const char *cpu_perc(void);
