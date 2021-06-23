@@ -66,7 +66,6 @@ static const char unknown_str[] = "n/a";
 static const struct arg args[] = {
 	/* function format          argument */
 	{ keymap,         " %s | ",           NULL    },
-	{ pacman_updates, "%s updates | ",    NULL    },
 	{ cpu_perc,       "cpu: %s%% | ",     NULL    },
 	{ ram_used,       "ram: %s | ",       NULL    },
 	{ disk_free,      "free: %s | ",      "/"     },
