@@ -28,6 +28,7 @@ sudo sh install_all.sh
   - `prefix + g`: toggle keyboard layout
   - `prefix + -`: decrease window opacity
   - `prefix + =`: increase window opacity
+  - `prefix + s`: Launch `switch` script
   - `prefix + shift + g`: lock screen
   - `prefix + shift + r`: restart dwm
 
