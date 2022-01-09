@@ -22,10 +22,10 @@ sudo sh install_all.sh
   - `printscreen`: flameshot gui
   - `prefix + e`: launch dmenu
   - `prefix + a`: launch terminal
-  - `prefix + x`: kill current window
+  - `prefix + c`: kill current window
   - `prefix + u`: centeredmaster layout
   - `prefix + o`: floating centeredmaster layout
-  - `prefix + g`: toggle layout script
+  - `prefix + g`: toggle keyboard layout
   - `prefix + -`: decrease window opacity
   - `prefix + =`: increase window opacity
   - `prefix + shift + g`: lock screen
